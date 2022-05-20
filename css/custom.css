@@ -1,40 +1,44 @@
-body{
-  background-color: #bc9c23;
-  color:#3e0761;
-  font-family: "DejaVu Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
+body {
+    background-color: #bc9c23;
+    color: #3e0761;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .container {
-  max-width: 960px;
-  background-color: #bc9c23;
+    max-width: 960px;
+    background-color: #bc9c23;
 }
 
-.btn-primary{
-  --bs-btn-bg: #490875;
-  --bs-btn-border-color: rgba(109, 78, 188, 0);
+.btn-primary {
+    --bs-btn-bg: #490875;
+    --bs-btn-border-color: rgba(109, 78, 188, 0);
 }
-.btn-secondary{
-  --bs-btn-bg: #490875;
-  --bs-btn-border-color: rgba(109, 78, 188, 0);
+
+.btn-secondary {
+    --bs-btn-bg: #490875;
+    --bs-btn-border-color: rgba(109, 78, 188, 0);
 }
+
 /*
  * Custom translucent site header
  */
 
 .site-header {
-  background-color: rgb(188, 156, 35);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgb(188, 156, 35);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
-  color: #8e8e8e;
-  transition: color .15s ease-in-out;
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /*.container div:nth-child(even){*/
@@ -44,20 +48,46 @@ body{
 /*  background-color: #db713d;*/
 /*}*/
 
-.dark-background{
-  background-color: #db713d;
+.dark-background {
+    background-color: #db713d;
 }
 
+.map-responsive {
+
+    overflow: hidden;
+
+    padding-bottom: 56.25%;
+
+    position: relative;
+
+    height: 0;
+
+}
+
+.map-responsive iframe {
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: absolute;
+
+}
 
 /*
  * Extra utilities
  */
 
 .flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
     flex: 1;
-  }
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
 }
