@@ -2,6 +2,8 @@ body{
   background-color: #bc9c23;
   color:#3e0761;
   font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .container {
@@ -9,6 +11,14 @@ body{
   background-color: #bc9c23;
 }
 
+.btn-primary{
+  --bs-btn-bg: #490875;
+  --bs-btn-border-color: #2b0346;
+}
+.btn-secondary{
+  --bs-btn-bg: #490875;
+  --bs-btn-border-color: #2b0346;
+}
 /*
  * Custom translucent site header
  */
@@ -27,14 +37,16 @@ body{
   text-decoration: none;
 }
 
-.row div:nth-child(even){
+/*.container div:nth-child(even){*/
+/*  background-color: #bc9c23;*/
+/*}*/
+/*.container div:nth-child(odd){*/
+/*  background-color: #db713d;*/
+/*}*/
+
+.dark-background{
   background-color: #db713d;
 }
-.row div:nth-child(odd){
-  background-color: #db713d;
-}
-
-
 
 
 /*
