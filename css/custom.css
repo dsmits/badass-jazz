@@ -1,5 +1,7 @@
 body{
   background-color: #bc9c23;
+  color:#3e0761;
+  font-family: sans-serif;
 }
 
 .container {
@@ -25,15 +27,11 @@ body{
   text-decoration: none;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-
-  width: 100%;
-
-  background-image: url("../img/banner.jpg")
+.row div:nth-child(even){
+  background-color: #db713d;
+}
+.row div:nth-child(odd){
+  background-color: #db713d;
 }
 
 
