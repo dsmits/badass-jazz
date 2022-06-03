@@ -21,9 +21,23 @@ body {
     --bs-btn-border-color: rgba(109, 78, 188, 0);
 }
 
+.nav-link{
+    color: #3e0761;
+    font-weight: bold;
+}
 /*
  * Custom translucent site header
  */
+
+
+.display-2{
+    font-weight: bold;
+}
+.table-striped-columns{
+    border-bottom-color: #ffbd59;
+    color: #3e0761;
+    --bs-table-striped-color: #3e076;
+}
 
 .site-header {
     background-color: rgb(188, 156, 35);
@@ -60,6 +74,9 @@ body {
 
 }
 
+h2{
+    font-weight: bold;
+}
 .map-responsive iframe {
     position: absolute;
     top: 0;
