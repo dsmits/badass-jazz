@@ -11,15 +11,18 @@ body {
     background-color: #bc9c23;
 }
 
-.btn-primary {
-    --bs-btn-bg: #490875;
-    --bs-btn-border-color: rgba(109, 78, 188, 0);
+.btn{
+    background-color: #DB713DFF;
+    color: #3e0761;
+    font-weight: bold;
+    border-bottom-width: thick;
+    border-right-width: thick;
+    border-color: #6a1a21;
+}
+.btn:hover{
+    background-color: #d5570c;
 }
 
-.btn-secondary {
-    --bs-btn-bg: #490875;
-    --bs-btn-border-color: rgba(109, 78, 188, 0);
-}
 
 .nav-link{
     color: #3e0761;
@@ -78,7 +81,8 @@ h2{
     font-weight: bold;
 }
 .list-group-item{
-    background-color: rgba(255,255,255, 0.2)
+    background-color: rgba(255,255,255, 0.2);
+    color:  #3e0761;
 }
 
 .map-responsive iframe {
