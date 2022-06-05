@@ -77,6 +77,10 @@ body {
 h2{
     font-weight: bold;
 }
+.list-group-item{
+    background-color: rgba(255,255,255, 0.2)
+}
+
 .map-responsive iframe {
     position: absolute;
     top: 0;
@@ -86,6 +90,8 @@ h2{
     aspect-ratio: auto;
 
 }
+
+
 
 /*
  * Extra utilities
